@@ -9,43 +9,40 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Room Width"
+        android:text="@string/width"
         android:id="@+id/textView1"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
-    <EditText
+    <EditText android:id="@+id/etWidth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/etWidth"
         android:layout_below="@+id/textView1"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
+    <TextView android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Room Length"
-        android:id="@+id/textView2"
+        android:text="@string/length"
         android:layout_below="@+id/etWidth"
         android:layout_alignParentStart="true" />
 
-    <EditText
+    <EditText android:id="@+id/etLength"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/etLength"
         android:layout_below="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
 
-    <Button
+    <Button android:id="@+id/btnShowResults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Results"
-        android:id="@+id/btnShowResults"
+        android:text="@string/resultsbtn"
         android:layout_below="@+id/etLength"
         android:layout_alignParentStart="true"
         android:layout_marginTop="42dp"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="calculateArea" />
 </RelativeLayout>

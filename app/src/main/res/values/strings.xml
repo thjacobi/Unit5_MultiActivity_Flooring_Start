@@ -2,7 +2,10 @@
 <resources>
 
     <string name="app_name">Unit5_MultiActivity_Flooring_Start</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="floorNeed">Flooring Needed:</string>
+    <string name="resultsbtn">Show Results</string>
+    <string name="length">Room Length</string>
+    <string name="width">Room Width</string>
 
 </resources>
